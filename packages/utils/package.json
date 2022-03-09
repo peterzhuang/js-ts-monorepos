@@ -8,8 +8,9 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "jest",
-    "build": "tsc -b ."
+    "test": "scripty",
+    "lint": "scripty",
+    "build": "scripty"
   },
   "dependencies": {
     "data-fns": "^0.1.8",
@@ -22,5 +23,8 @@
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.39",
     "jest": "^27.5.1"
+  },
+  "scripty": {
+    "windowsPath": "../../scripts-win/packages"
   }
 }
