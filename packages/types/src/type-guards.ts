@@ -15,6 +15,7 @@ export function isTypedArray<T>(
   check: (x: any) => x is T
 ): arr is T[] {
   if (!Array.isArray(arr)) return false;
+  // updated logic below
   if(arr.some((item) => !check(item))) return false;
   return true;
 }
