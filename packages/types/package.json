@@ -1,6 +1,6 @@
 {
   "name": "@shlack/types",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": "peterz",
   "license": "BSD-2-Clause",
   "main": "dist/index.js",
