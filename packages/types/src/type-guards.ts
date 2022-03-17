@@ -63,7 +63,7 @@ export function isMessage(arg: any): arg is IMessage {
   return (
     typeof arg.teamId === "string" &&
     typeof arg.channelId === "string" &&
-    typeof arg.userId === "string" &&
+    // typeof arg.userId === "string" &&
     typeof arg.body === "string"
   );
 }
