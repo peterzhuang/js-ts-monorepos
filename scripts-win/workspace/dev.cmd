@@ -1,0 +1,4 @@
+@ECHO OFF
+
+echo "┏━━━ 📦 Building (watching) Workspace ━━━━━━━━━━━━━━━━━━━"
+yarn tsc -b packages --watch --preserveWatchOutput

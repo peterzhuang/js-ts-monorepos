@@ -24,8 +24,10 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
+    "start": "scripty",
     "greet": "scripty",
     "build": "scripty",
+    "dev": "scripty",
     "clean": "scripty",
     "lint": "scripty",
     "test": "scripty"
